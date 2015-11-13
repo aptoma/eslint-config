@@ -2,7 +2,15 @@
 
 # @aptoma/eslint-config
 
-Shareable ESLint config following Aptoma Standard. To use in your project, add `@aptoma/eslint-config` your `package.json`, then in your ESLint configuration add:
+Shareable ESLint config following Aptoma Standard.
+
+## Installation
+
+```
+$ npm install --save-dev @aptoma/eslint-config
+```  
+
+In your ESLint configuration add:
 
 ```
 {
