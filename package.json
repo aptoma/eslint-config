@@ -5,7 +5,10 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint --ext '.js' lib",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "release": "npm run test && release-it -n -i patch",
+    "release:minor": "npm run test && release-it -n -i minor",
+    "release:major": "npm run test && release-it -n -i major"
   },
   "eslintConfig": {
     "extends": "./lib/index.js",
@@ -29,6 +32,7 @@
   },
   "homepage": "https://github.com/aptoma/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^1.9.0"
+    "eslint": "^1.9.0",
+    "release-it": "^2.3.1"
   }
 }
