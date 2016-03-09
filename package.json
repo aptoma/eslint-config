@@ -32,10 +32,10 @@
   },
   "homepage": "https://github.com/aptoma/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^1.9.0",
+    "eslint": "^2.3.0",
     "release-it": "^2.3.1"
   },
   "dependencies": {
-    "eslint-config-yandex": "^1.0.5"
+    "eslint-config-yandex": "^1.0.6"
   }
 }
