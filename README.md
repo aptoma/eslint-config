@@ -8,12 +8,18 @@ Shareable ESLint config following Aptoma Standard.
 
 ```
 $ npm install --save-dev @aptoma/eslint-config
-```  
+```
 
 In your ESLint configuration add:
 
-```
-{
-  "extends": "@aptoma/eslint-config"
-}
-```
+	{
+	  "extends": "@aptoma/eslint-config"
+	}
+
+## Working with ES5
+
+In your ESLint configuration add:
+
+	{
+	  "extends": "@aptoma/eslint-config/lib/es5"
+	}
