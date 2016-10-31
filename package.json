@@ -34,8 +34,5 @@
   "devDependencies": {
     "eslint": "^3.7.1",
     "release-it": "^2.4.3"
-  },
-  "dependencies": {
-    "eslint-config-yandex": "1.0.6"
   }
 }
