@@ -2,7 +2,7 @@
 
 # @aptoma/eslint-config
 
-Shareable ESLint config following Aptoma Standard.
+Shareable ESLint config following Aptoma Standard for **ES6**.
 
 ## Installation
 
@@ -14,12 +14,4 @@ In your ESLint configuration add:
 
 	{
 	  "extends": "@aptoma/eslint-config"
-	}
-
-## Working with ES5
-
-In your ESLint configuration add:
-
-	{
-	  "extends": "@aptoma/eslint-config/lib/es5"
 	}
