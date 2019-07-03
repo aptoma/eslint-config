@@ -10,6 +10,9 @@
     "release:minor": "npm run test && release-it -n -i minor",
     "release:major": "npm run test && release-it -n -i major"
   },
+  "engines": {
+    "node": ">=8.x.x"
+  },
   "eslintConfig": {
     "extends": "./lib/index.js",
     "env": {
